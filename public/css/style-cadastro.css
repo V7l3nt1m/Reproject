@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+
+header {
+    /* background: url(../img/5.jpg); */
+    /* background-size:cover; */
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    min-height: 10px;
+}
+.texto-principal {
+    font-size: 70pt;
+    font-weight: bolder;
+    text-shadow: 1px 1px 10px black;
+    border-radius: 40px 150px;
+    box-shadow: 1px 1px 10px white;
+}
+
+@media screen and (max-width: 670px) {
+
+    header {
+        min-height: 400px;
+    }
+    
+    .texto-principal {
+        font-size: 55pt;
+    }
+
+}
+
+@font-face {
+    font-family: 'myfont';
+    src: url('../fonts/MADE\ Evolve\ Sans\ Regular\ EVO\ \(PERSONAL\ USE\).otf');
+}
+
+.texto-principal {
+    font-family: myfont;
+}

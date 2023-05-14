@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+header {
+    background: url(../img/5.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 1000px;
+}
+.texto-principal {
+    font-size: 90pt;
+    font-weight: bolder;
+    text-shadow: 1px 1px 10px black;
+    border-radius: 40px 150px;
+    box-shadow: 1px 1px 10px white;
+    width: auto;
+}
+.card-reveal-img {
+    width: 150px;
+}
+.logo2{
+    margin-top: -20px;
+    width: 240px;
+}
+
+@media screen and (max-width: 670px) {
+
+    header {
+        min-height: 400px;
+    }
+    
+    .texto-principal {
+        font-size: 60pt;
+    }
+
+}
+.logologin{
+    margin-top: -20px;
+    width: 250px;
+}
+
+@font-face {
+    font-family: 'myfont';
+    src: url('../fonts/MADE\ Evolve\ Sans\ Regular\ EVO\ \(PERSONAL\ USE\).otf');
+}
+
+.texto-principal {
+    font-family: myfont; 
+}
+
+.container2{
+    padding: 20px;
+}
+.login{
+    color: white;
+}
+
+.dashboard-title-container{
+    padding: 30px;
+}
+.dashboard-events-container form{
+    display: inline-block;
+}
+.dashboard-title-container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+ .dashboard-events-container th{
+    width: 10%;
+}
+
+#texto-principal{
+     font-size: 90pt;
+    font-weight: bolder;
+    text-shadow: 1px 1px 10px black;
+    border-radius: 40px 150px;
+    box-shadow: 1px 1px 20px white;
+    width: auto;
+}
+
+.cardes{
+    display: inline-block;
+    padding: 2px;
+     margin-left: 1%;
+     margin-bottom: 0px;
+}
+
+.card{
+    width: 422px;
+}
+.img{
+    width: 422px;
+}
+.proj{
+    color: indigo;
+}
+
+#texto-principal2{
+    width: auto;
+}
+
+.h1{
+    color: indigo;
+}
+#texto-principal3{
+     font-size: 90pt;
+    font-weight: bolder;
+    text-shadow: 1px 1px 10px black;
+    border-radius: 40px 150px;
+    box-shadow: 1px 1px 20px white;
+    width: auto;
+}
+.buscando{
+    color: indigo;
+    margin-left: 50px;
+}
+
+.text-sm{
+    color: white;
+}
+h5{
+    color: indigo;
+}
+.h5{
+    color: black;
+    padding: 10px;
+     font-style: italic;
+    font-size: 20px;
+}
+#nome_{
+    width: 360px;
+}
+#nome_projecto::placeholder, textarea::placeholder, #nome_aluno::placeholder{
+  color: gray;
+}
